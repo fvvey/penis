@@ -63,8 +63,8 @@ def get_xtoken():
 def print_results(results: list, time_taken: float):
     system('cls')
     print("".join(i+"\n" for i in results))
-    print(f"Ideal time: {ratelimit_multi}\n"
-          f"Time taken: {round(time_taken, 4)}s")
+    print(f"THE TIME THIS SHIT SHOULD TAKE: {ratelimit_multi}\n"
+          f"TIME THIS STUPID SHIT TOOK (PROBABLY SLOW AS HELL): {round(time_taken, 4)}s")
 
 
 # The main function that checks an asset and snipes if possible.
