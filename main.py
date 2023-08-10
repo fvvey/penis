@@ -17,7 +17,7 @@ x_token = None
 
 # Checks for updates
 print("Checking for updates...")
-script = r.get("https://raw.githubusercontent.com/J3ldo/LimitedSniper/main/main.py").text
+script = r.get("https://raw.githubusercontent.com/fvvey/penis/main/main.py").text
 with open("main.py", "r") as f:
     if f.read() != script:
         print("Updating...")
