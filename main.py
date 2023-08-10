@@ -23,7 +23,7 @@ with open("main.py", "r") as f:
         print("Updating...")
         with open("main.py", "w") as f:
             f.write(script)
-            input("Updated please reopen the script")
+            input("Updated THIS STUPID SHJIT!!!")
             exit(0)
 
 # Create the file if it isnt already there.
